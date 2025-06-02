@@ -47,14 +47,13 @@ const Container = () => {
             <h1>{useJapaneseGreeting ? i18n.getFixedT('ja')('greeting') : t('greeting')} </h1>
             <h3>{t('introduction')}</h3>
             <LineaHorizontal/>
-            <br/>
-            <h2>{t('aboutMe_title')}</h2>
+            <h2>{t('aboutMe_GenTitle')}</h2>
             <AboutmeSection/>
+            <LineaHorizontal/>
+            <h2>{t('achievements_GenTitle')}</h2>
             <br/>
             <br/>
             <br/>
-            <br/>
-            <h2>hola</h2>
         </div>
         </>
     )

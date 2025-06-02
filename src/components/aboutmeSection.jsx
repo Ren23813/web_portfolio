@@ -3,6 +3,7 @@ import * as motion from "motion/react-client"
 import { FaGamepad,FaShoePrints } from "react-icons/fa"
 import { PiPencilLineDuotone } from "react-icons/pi"
 import { GiMusicalNotes } from "react-icons/gi"
+import { useTranslation } from 'react-i18next'
 
 
 const AboutMeCard = ({ icono, titulo, texto }) => {
@@ -31,13 +32,14 @@ const AboutMeCard = ({ icono, titulo, texto }) => {
 }
 
 const AboutmeSection = () => {
+    const { t, i18n } = useTranslation()
+    
     return( 
         <div className='aboutmeRow'>
-            <AboutMeCard icono={<FaGamepad/>} titulo={"hola"} texto={"buenas tardes buenas noches buenas noches buenas tardes señoritas y señores"}/>
-            <AboutMeCard icono={<PiPencilLineDuotone/>} titulo={"hola"} texto={"buenas tardes buenas noches buenas noches buenas tardes señoritas y señores"}/>
-            <AboutMeCard icono={<GiMusicalNotes/>} titulo={"hola"} texto={"buenas tardes buenas noches buenas noches buenas tardes señoritas y señores"}/>
-            <AboutMeCard icono={<FaShoePrints/>} titulo={"hola"} texto={"buenas tardes buenas noches buenas noches buenas tardes señoritas y señores"}/>
-
+            <AboutMeCard icono={<FaGamepad/>} titulo={t('aboutMe_title1')} texto={ t('aboutMe_text1') }/>
+            <AboutMeCard icono={<PiPencilLineDuotone/>} titulo={t('aboutMe_title2')} texto={ t('aboutMe_text2') }/>
+            <AboutMeCard icono={<GiMusicalNotes/>} titulo={t('aboutMe_title3')} texto={t('aboutMe_text3')  }/>
+            <AboutMeCard icono={<FaShoePrints/>} titulo={t('aboutMe_title4')} texto={ t('aboutMe_text4') }/>
         </div>
 
     )

@@ -15,13 +15,35 @@
     display: flex;
     flex-direction: column;
     /* height: 100%; */
-    width: 15%;
-    background-color: rgb(0, 45, 128);
+    width: 18%;
+    background-color: rgb(0, 12, 91);
     padding: 10px;
     transition: transform 0.1s ease-in-out;
+    border-radius: 10%;
+    overflow-y: auto;
+}
 
+.aboutmeCard:nth-child(odd) {
+        background-color: rgb(30, 0, 51);
 
+}
+.aboutmeIcon {
+    justify-items: center;
+    align-items: center;
+    padding-top: 4px;
+    /* height: 20%; */
+    font-size:x-large;  
+    padding-left: 2px;
 }
 .aboutmeCard h4{
     font-size: 25px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    /* height: 30%; */
 }
+
+.aboutmeCard p{ 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* height: 50%; */
+}
+
