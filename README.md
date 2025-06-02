@@ -1,2 +1,1 @@
-# web_portfolio
-My personal portfolio, made for Web class. 
+My personal portfolio, made for Web class at uni.
