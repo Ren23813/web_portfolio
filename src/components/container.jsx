@@ -6,6 +6,7 @@ import { useTranslation } from 'react-i18next'
 import './container.css'
 import LineaHorizontal from './lineaHorizontal'
 import AboutmeSection from './aboutmeSection'
+import AchievementsSection from './achievementsSection'
 
 
 const Container = () => {
@@ -51,6 +52,8 @@ const Container = () => {
             <AboutmeSection/>
             <LineaHorizontal/>
             <h2>{t('achievements_GenTitle')}</h2>
+            <h3>{t('achievements_subtitle')}</h3>
+            <AchievementsSection/>
             <br/>
             <br/>
             <br/>
