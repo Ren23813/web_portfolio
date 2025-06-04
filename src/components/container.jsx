@@ -7,6 +7,7 @@ import './container.css'
 import LineaHorizontal from './lineaHorizontal'
 import AboutmeSection from './aboutmeSection'
 import AchievementsSection from './achievementsSection'
+import SkillsSection from './skillsSection'
 
 
 const Container = () => {
@@ -42,6 +43,7 @@ const Container = () => {
                     height: 10,
                     originX: 0,
                     backgroundColor: "#8710b7",
+                    zIndex:1
                 }}
             />
         <div className='containerGeneral'>
@@ -54,6 +56,11 @@ const Container = () => {
             <h2>{t('achievements_GenTitle')}</h2>
             <h3>{t('achievements_subtitle')}</h3>
             <AchievementsSection/>
+            <LineaHorizontal/>
+            <h2>{t('skills_GenTitle')}</h2>
+            <h3>{t('skills_subtitle')}</h3>
+            <SkillsSection/>
+            <LineaHorizontal/>
             <br/>
             <br/>
             <br/>

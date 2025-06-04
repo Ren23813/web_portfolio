@@ -29,7 +29,10 @@ const resources = {
       achievements_title5:"Varios instrumentos",
       achievements_text5:"Sé tocar guitarra en gran manera (debido a la educación que tuve), pero también piano y batería, aprendidos por cursos cortos y cuenta propia.",
       achievements_title6:"Duolingo",
-      achievements_text6:"Tengo una racha de 2666 días (a fecha de hoy 02/06/2025) en Duolingo... No sé si es un logro o un problema, pero al menos sé que soy constante :D."
+      achievements_text6:"Tengo una racha de 2666 días (a fecha de hoy 02/06/2025) en Duolingo... No sé si es un logro o un problema, pero al menos sé que soy constante :D.",
+      skills_GenTitle:"Habilidades y gustos profesionales",
+      skills_subtitle:"Este tercer año, descrubrí que me gusta bastante investigar sobre las tecnologías a utilizar: qué versión, cuál queda mejor, qué vale la pena contenerizar y qué no. Aquí algunas de estas tecnologías que me gustaron:",
+      
 
     }
   },
@@ -66,7 +69,11 @@ const resources = {
         achievements_title5:"Many instruments",
         achievements_text5:"I know very well how to play the guitar (due to my previous education); however, I also know how to play the piano and drums, which I learnt in short courses and self-teaching.",
         achievements_title6:"Duolingo",
-        achievements_text6:"I have a 2666 days lesson-streak in Duolingo (at today's date 06-02-2025). I don't know if it should be called an 'achievement', but at least that means I'm very consistent :D."
+        achievements_text6:"I have a 2666 days lesson-streak in Duolingo (at today's date 06-02-2025). I don't know if it should be called an 'achievement', but at least that means I'm very consistent :D.",
+        skills_GenTitle:"Skills and professional likings",
+        skills_subtitle:"This third year, I figured that I like searching for the correct technology/library to use: what version, what suits the best for the occasion, what is worth containerizing or not. Here are some of those technologies that I liked:",
+
+
 
     }
   },
