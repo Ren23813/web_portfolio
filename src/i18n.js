@@ -41,7 +41,11 @@ const resources = {
       projects_title3:"Historias proyecto Plataformas Móviles",
       projects_text3:"Nuestro proyecto para esa clase era una aplicación de ayuda y acompañamiento de salud mental. Yo creé cada una de las historias para cada personaje (mascota) que incluímos en el proyecto, así el usuario se podría sentir identificado ayudándolas.",
       projects_title4:"Proyecto Ing. Software",
-      projects_text4:"El proyecto que estoy trabajando actualmente. Me estoy centrando especialmente en el backend, en la configuración de Docker y en las migraciones con Objection.js. Esperemos que salga todo bien en el semestre que falta :D."
+      projects_text4:"El proyecto que estoy trabajando actualmente. Me estoy centrando especialmente en el backend, en la configuración de Docker y en las migraciones con Objection.js. Esperemos que salga todo bien en el semestre que falta :D.",
+      contact_GenTitle:"Contáctame",
+      contact_subtitle:"Correo:",
+      contact_email:"roj23813@uvg.edu.gt"
+
 
     }
   },
@@ -90,7 +94,12 @@ const resources = {
         projects_title3:"Mobile Platforms class project",
         projects_text3:"Our project for that class was an application to take care of mental health. I created an individual story for each character (presented as pets in the app) in the project, for the user to feel identified with them, while helping them through their own problems.",
         projects_title4:"Software Engineering project",
-        projects_text4:"The project I'm currently working on. I'm in charge of the backend development, as well as all the Docker logistic and database migrations. Wish me luck to being able to complete it the incoming semester :D."
+        projects_text4:"The project I'm currently working on. I'm in charge of the backend development, as well as all the Docker logistic and database migrations. Wish me luck to being able to complete it the incoming semester :D.",
+        contact_GenTitle:"Contact me",
+        contact_subtitle:"Email:",
+        contact_email:"roj23813@uvg.edu.gt"
+
+
 
 
 

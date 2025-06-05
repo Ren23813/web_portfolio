@@ -1,0 +1,35 @@
+.contactSectionColumn{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contactSectionRow{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: baseline;
+    justify-content:center;
+    gap: 15px;
+    margin-left: 40px;
+}
+
+.contactSectionRow h5{
+    color: #b7b7b7;
+}
+
+.contactSectionRow h4{
+    color: #b700ff;
+}
+
+.githubIcon{
+    transition: transform 0.3s ease;
+}
+
+.githubIcon:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+

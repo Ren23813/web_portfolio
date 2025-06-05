@@ -9,6 +9,7 @@ import AboutmeSection from './aboutmeSection'
 import AchievementsSection from './achievementsSection'
 import SkillsSection from './skillsSection'
 import ProjectSection from './projectsSection'
+import ContactSection from './contactSection'
 
 
 const Container = () => {
@@ -67,7 +68,8 @@ const Container = () => {
             <ProjectSection/>
             <LineaHorizontal/>
             <br/>
-            <br/>
+            <h3>{t('contact_GenTitle')}</h3>
+            <ContactSection/>
             <br/>
         </div>
         </>
