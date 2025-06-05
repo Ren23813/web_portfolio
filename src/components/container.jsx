@@ -15,6 +15,12 @@ import ContactSection from './contactSection'
 const Container = () => {
     const [useJapaneseGreeting, setUseJapaneseGreeting] = useState(false)
     const { scrollYProgress } = useScroll()
+    const [isSpanish, setIsSpanish] = useState(true)
+    const toggleLanguage = () => {
+        const newLanguage = isSpanish ? 'en' : 'es'
+        i18n.changeLanguage(newLanguage)
+        setIsSpanish(!isSpanish)
+    }
     const scaleX = useSpring(scrollYProgress, {
         stiffness: 100,
         damping: 30,
@@ -34,6 +40,25 @@ const Container = () => {
 
     return(
         <>
+        <div className="slider-container">
+
+            <div className="toggle-container" onClick={toggleLanguage}>
+                <span className="lang-label left">ES</span>
+                <span className="lang-label right">EN</span>
+                <motion.div
+                    className="toggle-handle"
+                    animate={{
+                    left: isSpanish ? 0 : 50,
+                    }}
+                    transition={{
+                    type: "spring",
+                    stiffness: 300,
+                    damping: 30,
+                    bounce: 0.2,
+                    }}
+                />
+            </div>
+        </div>
         <motion.div
                 id="scroll-indicator"
                 style={{
