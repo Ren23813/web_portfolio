@@ -8,6 +8,7 @@ import LineaHorizontal from './lineaHorizontal'
 import AboutmeSection from './aboutmeSection'
 import AchievementsSection from './achievementsSection'
 import SkillsSection from './skillsSection'
+import ProjectSection from './projectsSection'
 
 
 const Container = () => {
@@ -60,6 +61,10 @@ const Container = () => {
             <h2>{t('skills_GenTitle')}</h2>
             <h3>{t('skills_subtitle')}</h3>
             <SkillsSection/>
+            <LineaHorizontal/>
+            <h2>{t('projects_GenTitle')}</h2>
+            <h3>{t('projects_subtitle')}</h3>
+            <ProjectSection/>
             <LineaHorizontal/>
             <br/>
             <br/>

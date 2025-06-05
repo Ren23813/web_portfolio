@@ -15,7 +15,7 @@
     width: 100%;
     /* height: 85%; */
     border-radius: 10px;
-    background-color: rgb(236, 185, 247);
+    background-color: rgba(236, 185, 247, 0.84);
     color: black;
     height: 100%;
 }

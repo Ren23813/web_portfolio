@@ -32,7 +32,16 @@ const resources = {
       achievements_text6:"Tengo una racha de 2666 días (a fecha de hoy 02/06/2025) en Duolingo... No sé si es un logro o un problema, pero al menos sé que soy constante :D.",
       skills_GenTitle:"Habilidades y gustos profesionales",
       skills_subtitle:"Este tercer año, descrubrí que me gusta bastante investigar sobre las tecnologías a utilizar: qué versión, cuál queda mejor, qué vale la pena contenerizar y qué no. Aquí algunas de estas tecnologías que me gustaron:",
-      
+      projects_GenTitle:"Proyectos",
+      projects_subtitle:"Algunos de los proyectos o trabajos que he realizado, de los cuales estoy orgulloso o, al menos, me gustó hacerlos.",
+      projects_title1:"Docker-compose: BD",
+      projects_text1:"Realicé un manejo de 3 imágenes de Docker, para BD, back y front utilizando un único docker-compose para su ejecución simultánea, pero ordenada. Además, administré todo el backend para ese proyecto.",
+      projects_title2:"Historia HTML-only",
+      projects_text2:"Me gustó mucho la historia que creé para el lab de HTML-only. Retraté un mundo fantasioso, donde las emociones humanas eran reales; personajes con historias levemente exageradas, pero con pensamientos realistas.",
+      projects_title3:"Historias proyecto Plataformas Móviles",
+      projects_text3:"Nuestro proyecto para esa clase era una aplicación de ayuda y acompañamiento de salud mental. Yo creé cada una de las historias para cada personaje (mascota) que incluímos en el proyecto, así el usuario se podría sentir identificado ayudándolas.",
+      projects_title4:"Proyecto Ing. Software",
+      projects_text4:"El proyecto que estoy trabajando actualmente. Me estoy centrando especialmente en el backend, en la configuración de Docker y en las migraciones con Objection.js. Esperemos que salga todo bien en el semestre que falta :D."
 
     }
   },
@@ -72,6 +81,16 @@ const resources = {
         achievements_text6:"I have a 2666 days lesson-streak in Duolingo (at today's date 06-02-2025). I don't know if it should be called an 'achievement', but at least that means I'm very consistent :D.",
         skills_GenTitle:"Skills and professional likings",
         skills_subtitle:"This third year, I figured that I like searching for the correct technology/library to use: what version, what suits the best for the occasion, what is worth containerizing or not. Here are some of those technologies that I liked:",
+        projects_GenTitle:"Projects",
+        projects_subtitle:"Some of the projects or labs I've done, of which I am proud of (or enjoyed making them!)",
+        projects_title1:"Docker-compose: DB",
+        projects_text1:"Made the management of 3 docker-images, for the DB, backend and frontend, using a single docker-compose for it's simultaneous and ordered start.",
+        projects_title2:"HTML-only story",
+        projects_text2:"I really liked the story I created for that lab. I made a fantasy world with real human emotions. A bit exaggerated backstory for each character, yet each one having realistic thoughts.",
+        projects_title3:"Mobile Platforms class project",
+        projects_text3:"Our project for that class was an application to take care of mental health. I created an individual story for each character (presented as pets in the app) in the project, for the user to feel identified with them, while helping them through their own problems.",
+        projects_title4:"Software Engineering project",
+        projects_text4:"The project I'm currently working on. I'm in charge of the backend development, as well as all the Docker logistic and database migrations. Wish me luck to being able to complete it the incoming semester :D."
 
 
 

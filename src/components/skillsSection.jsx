@@ -19,11 +19,11 @@ const SkillsSection = () => {
   }
 
   return (
-    <div className="container">
+    <div className="skillsContainer">
       <motion.button
         initial={false}
         aria-label="Previous"
-        className="button"
+        className="skillsButton"
         onClick={() => setSlide(-1)}
         whileTap={{ scale: 0.9 }}
       >
@@ -39,7 +39,7 @@ const SkillsSection = () => {
       <motion.button
         initial={false}
         aria-label="Next"
-        className="button"
+        className="skillsButton"
         onClick={() => setSlide(1)}
         whileTap={{ scale: 0.9 }}
       >
@@ -87,10 +87,10 @@ const Slide = forwardRef(function Slide({ item, direction }, ref) {
       initial="initial"
       animate="animate"
       exit="exit"
-      className="box"
+      className="skillsCard"
     >
-      <img src={item.img} alt="Card image" className="image" />
-      <h1 className="text">{item.text}</h1>
+      <img src={item.img} alt="Card image" className="skillsImage" />
+      <h3 className="text">{item.text}</h3>
     </motion.div>
   )
 })
