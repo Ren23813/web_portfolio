@@ -4,13 +4,8 @@
 
 
 ## Pasos para visualizar (06/2025):
-#### Requisitos: GitHub y Bun (JS)
-1. Abrir terminal y clonar el repositorio por medio de url `git clone https://github.com/Ren23813/web_portfolio.git`; o por medio de SSH `git clone git@github.com:Ren23813/web_portfolio.git`
-2. Moverse a esa carpeta `cd web_portfolio`
-3. Correr en modo desarrollador con Bun `bun run dev` 
-4. Abrir cualquier navegador web en el puerto local 5173, o sea, la dirección `http://localhost:5173/`
-5. ¡Listo! Esos serían los pasos :D
-
+1. Abrir la dirección `https://ren23813.github.io/web_portfolio/` en un navegador web de escritorio (soporte móvil aún no agregado).
+2. ¡Eso sería todo :D! 
 
 
 # (EN)
@@ -19,12 +14,8 @@
 
 
 ## Steps to visualize (06-2025)
-#### Requirements: GitHub and Bun (JS)
-1. Open a new terminal and clone the repository by it's url `git clone https://github.com/Ren23813/web_portfolio.git`; or by SSH method `git clone git@github.com:Ren23813/web_portfolio.git`
-2. Move to that folder `cd web_portfolio`
-3. Run the developer mode with Bun `bun run dev`
-4. Open any web browser in the local port 5173, that is, `http://localhost:5173/`
-5. That's it! That would be all ;D
+1. Open a desktop web browser at the url `https://ren23813.github.io/web_portfolio/` (smartphone compatibility yet not added).
+5. And that's it! That would be all ;D
 
 <br/>
 

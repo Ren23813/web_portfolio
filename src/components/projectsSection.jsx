@@ -45,10 +45,10 @@ const ProjectsSection = () => {
     const { t } = useTranslation()
     return(
         <div className="projectsGrid">
-            <ProjectCard imagen={"/docker_compose_logo.jpg"} titulo={t('projects_title1')} texto={t('projects_text1')} id={1} />
-            <ProjectCard imagen={"/estrella_logo.webp"} titulo={t('projects_title2')} texto={t('projects_text2')} id={2}/>
-            <ProjectCard imagen={"/jelly_pet.png"} titulo={t('projects_title3')} texto={t('projects_text3')} id={3}/>
-            <ProjectCard imagen={"/jira_logo.svg"} titulo={t('projects_title4')} texto={t('projects_text4')} id={4}/>
+            <ProjectCard imagen={"assets/images/docker_compose_logo.jpg"} titulo={t('projects_title1')} texto={t('projects_text1')} id={1} />
+            <ProjectCard imagen={"assets/images/estrella_logo.webp"} titulo={t('projects_title2')} texto={t('projects_text2')} id={2}/>
+            <ProjectCard imagen={"assets/images/jelly_pet.png"} titulo={t('projects_title3')} texto={t('projects_text3')} id={3}/>
+            <ProjectCard imagen={"assets/images/jira_logo.svg"} titulo={t('projects_title4')} texto={t('projects_text4')} id={4}/>
  
         </div>
     )

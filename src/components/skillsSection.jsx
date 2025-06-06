@@ -5,10 +5,10 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa"
 
 const SkillsSection = () => {
   const items = [
-    { id: 1, img: "/docker_logo.png", text: "Docker" },
-    { id: 2, img: "/go_logo.png", text: "Golang" },
-    { id: 3, img: "/bun_logo.png", text: "Bun" },
-    { id: 4, img: "/orm_logo.png", text: "Objection.js" },
+    { id: 1, img: "assets/images/docker_logo.png", text: "Docker" },
+    { id: 2, img: "assets/images/go_logo.png", text: "Golang" },
+    { id: 3, img: "assets/images/bun_logo.png", text: "Bun" },
+    { id: 4, img: "assets/images/orm_logo.png", text: "Objection.js" },
   ]
   const [index, setIndex] = useState(0)
   const [direction, setDirection] = useState(0)
