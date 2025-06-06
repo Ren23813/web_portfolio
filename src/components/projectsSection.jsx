@@ -42,7 +42,7 @@ const ProjectCard = ({imagen,titulo,texto,id}) => {
 
 const ProjectsSection = () => {
     
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
     return(
         <div className="projectsGrid">
             <ProjectCard imagen={"/docker_compose_logo.jpg"} titulo={t('projects_title1')} texto={t('projects_text1')} id={1} />

@@ -50,17 +50,17 @@ h2 {
   top: 50%;
   transform: translateY(-50%);
   font-size: 14px;
-  color: #ffffff;           /* o el color que prefieras */
+  color: #ffffff;        
   font-weight: bold;
-  pointer-events: none;     /* que no intercepte clicks */
+  pointer-events: none;   
 }
 
 .lang-label.left {
-  left: 15px;               /* separada un poco del borde izquierdo */
+  left: 15px;          
 }
 
 .lang-label.right {
-  right: 15px;              /* separada un poco del borde derecho */
+  right: 15px;              
 }
 
 .toggle-handle {
@@ -70,5 +70,4 @@ h2 {
   border-radius: 50%;
   position: absolute;
   top: 0;
-  /* left será controlado dinámicamente por Framer Motion */
 }

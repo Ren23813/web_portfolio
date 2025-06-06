@@ -32,7 +32,7 @@ const AchievementsCard = ({icono,titulo,texto}) => {
 }
 
 const AchievementsSection = () => {
-    const { t, i18n } = useTranslation()
+    const { t } = useTranslation()
     return (
         <div className='achievementsGrid'>
             <AchievementsCard icono={<IoMdSchool size={60}/>} titulo={t('achievements_title1')} texto={t('achievements_text1')}/>

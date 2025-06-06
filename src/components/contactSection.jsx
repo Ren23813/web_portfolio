@@ -1,4 +1,3 @@
-import * as motion from "motion/react-client"
 import { useTranslation } from 'react-i18next'
 import './contactSection.css'
 import { FaGithub } from "react-icons/fa"
@@ -13,7 +12,7 @@ const handleWatch = () => {
   }
 
 const ContactSection = () => {
-    const { t, i18n } = useTranslation()
+    const { t} = useTranslation()
     return(
        <div className="contactSectionColumn">
             <div className='contactSectionRow'>
