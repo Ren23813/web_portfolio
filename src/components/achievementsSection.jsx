@@ -22,7 +22,7 @@ const AchievementsCard = ({icono,titulo,texto}) => {
 
     return(
         <div>
-        <motion.div className='achievementCard' variants={dotVariants} animate="pulse">  {/* pulse */}
+        <motion.div className='achievementCard' variants={dotVariants} animate="pulse"> 
             <div className='achievementIcon'>{icono}</div>
             <h4>{titulo}</h4>
             <p>{texto}</p>

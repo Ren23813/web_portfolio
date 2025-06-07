@@ -25,7 +25,3 @@ const ContactSection = () => {
 }
 
 export default ContactSection
-
-//  <div className="contactSectionColumn">
-//             <></>
-//         </div>
